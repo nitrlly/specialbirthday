@@ -1,4 +1,4 @@
-const bday = new Date("Jun 12, 2022 0:00:00");
+const bday = new Date("Jun 10, 2022 14:54:00");
 
 function updateCoundown(){ 
 
@@ -21,6 +21,7 @@ function updateCoundown(){
         setTimeout(function(){
            location.href = "https://youtu.be/HVZxH_1tL1E";
         }, 5000);
+        return;
   }
 
     const d = Math.floor(countdown/1000/60/60/24);
