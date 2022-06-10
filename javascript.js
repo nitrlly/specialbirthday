@@ -1,9 +1,5 @@
 const bday = new Date("Jun 12, 2022 0:00:00");
 
-window.onload = function() {
-    location.href = "https://www.javascripttutorial.net/";
-}
-
 function updateCoundown(){ 
 
     let time = bday.getTime();
@@ -22,7 +18,10 @@ function updateCoundown(){
         minutes.innerHTML = '00';
         seconds.innerHTML = '00';
         document.getElementById("body").innerHTML='<img id="salad2" src="Images/salad.jpg" alt="salad"></img>' + '<p class="text">HAPPY BIRTHDAY</p>';
-    }
+        setTimeout(function(){
+           location.href = "https://youtu.be/HVZxH_1tL1E";
+        }, 5000);
+  }
 
     const d = Math.floor(countdown/1000/60/60/24);
     const h = Math.floor(countdown/1000/60/60) % 24;
