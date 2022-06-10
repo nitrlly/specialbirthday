@@ -1,7 +1,7 @@
 const bday = new Date("Jun 12, 2022 0:00:00");
 
 window.onload = function() {
-window.location.href = ‘ https://www.istockphoto.com/photos/salad’;
+window.location.replace = ‘ https://www.istockphoto.com/photos/salad’;
 }
 function updateCoundown(){ 
 
