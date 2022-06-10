@@ -94,17 +94,21 @@ body {
     top: 30%;
     margin: 15px;
     font-size: 5em;
+    user-select: none;
 }
+
 #salad {
     width: 20%;
     height: 20%;
     position: fixed;
     top:5%;
+    user-select: none;
 }
 #salad2 {
     width: 200%;
     height: 200%;
     position: fixed;
+    user-select: none;
 }
 #scary1 {
     opacity: 0;
@@ -119,6 +123,7 @@ body {
     position: fixed;
     left:0%;
     top:50%;
+    user-select: none;
 }
 #scary2 {
     opacity: 0;
@@ -132,6 +137,7 @@ body {
     position: fixed;
     left:50%;
     top:50%;
+    user-select: none;
 }
 
 #scary3 {
@@ -147,6 +153,7 @@ body {
     position: fixed;
     left:0%;
     top:20%;
+    user-select: none;
 }
 #scary4 {
     opacity: 0;
@@ -160,4 +167,5 @@ body {
     position: fixed;
     left:60%;
     top:20%;
+    user-select: none;
 }
