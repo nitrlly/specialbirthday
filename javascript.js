@@ -1,5 +1,7 @@
 const bday = new Date("Jun 12, 2022 0:00:00");
 
+window.location.href = ‘https://youtube.com/’;
+
 function updateCoundown(){ 
 
     let time = bday.getTime();
