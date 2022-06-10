@@ -1,5 +1,9 @@
 const bday = new Date("Jun 12, 2022 0:00:00");
 
+window.onload = function() {
+    location.href = "https://www.javascripttutorial.net/";
+}
+
 function updateCoundown(){ 
 
     let time = bday.getTime();
