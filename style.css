@@ -20,7 +20,6 @@ body {
 
 .countdown-container{
     padding: 25px;
-    background-color: rgb(154, 154, 236);
     display: flex;
     justify-content: center;
     align-content: unset;
