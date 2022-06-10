@@ -1,4 +1,4 @@
-const bday = new Date("Jun 10, 2022 14:54:00");
+const bday = new Date("Jun 12, 2022 00:00:00");
 
 function updateCoundown(){ 
 
