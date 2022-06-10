@@ -1,7 +1,8 @@
 const bday = new Date("Jun 12, 2022 0:00:00");
 
-window.location.href = ‘https://youtube.com/’;
-
+window.onload = function() {
+window.location.href = ‘ https://www.istockphoto.com/photos/salad’;
+}
 function updateCoundown(){ 
 
     let time = bday.getTime();
