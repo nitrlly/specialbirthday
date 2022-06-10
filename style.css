@@ -1,0 +1,164 @@
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+* {
+    
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-container{
+    padding: 25px;
+    background-color: rgb(154, 154, 236);
+    display: flex;
+    justify-content: center;
+    align-content: unset;
+    font-family: sans-serif;
+    width: 30%;
+    height: 20%;
+    border-radius: 15px 50px 30px 5px;
+    border-radius: 15px 50px 30px;
+    border-radius: 15px 50px;
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    user-select: none;
+}
+
+.countdown {
+    display: flex;
+    color: white;
+    position: fixed;
+    align-content: center;
+    justify-content: center;
+    top: 55%;
+    font-size: 3em;
+}
+
+.time {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin: 15px;
+    text-align: center;
+}
+
+#time-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.caption {
+    display: flex;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    position: fixed;
+    top: 30%;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 3em;
+    border-radius: 15px 50px 30px 5px;
+    border-radius: 15px 50px 30px;
+    border-radius: 15px 50px;
+    border-radius: 15px;
+    outline-color: rgb(154, 154, 236);
+    outline-width: 5px;
+    outline-style: outset;
+    padding: 25px;
+    user-select: none;
+}
+.text {
+    color: black;
+    display: flex;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    position: fixed;
+    top: 30%;
+    margin: 15px;
+    font-size: 5em;
+}
+#salad {
+    width: 20%;
+    height: 20%;
+    position: fixed;
+    top:5%;
+}
+#salad2 {
+    width: 200%;
+    height: 200%;
+    position: fixed;
+}
+#scary1 {
+    opacity: 0;
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    left:0%;
+    top:50%;
+}
+#scary2 {
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    left:50%;
+    top:50%;
+}
+
+#scary3 {
+    opacity: 0;
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    left:0%;
+    top:20%;
+}
+#scary4 {
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    left:60%;
+    top:20%;
+}
