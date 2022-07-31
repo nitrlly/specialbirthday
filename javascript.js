@@ -17,7 +17,7 @@ function updateCoundown(){
         hours.innerHTML = '00';
         minutes.innerHTML = '00';
         seconds.innerHTML = '00';
-        document.getElementById("body").innerHTML='<img id="salad2" src="Images/salad.jpg" alt="salad"></img>' + '<p class="text">HAPPY BIRTHDAY</p>';
+        document.getElementById("body").innerHTML='<img id="salad2" src="Images/14bts-1-mediumSquareAt3X.jpg" alt="salad"></img>' + '<p class="text">HAPPY BIRTHDAY</p>';
         setTimeout(function(){
            location.href = "https://www.youtube.com/watch?v=qhA7r4FJx1w";
         }, 2000);
