@@ -20,7 +20,7 @@ function updateCoundown(){
         document.getElementById("body").innerHTML='<img id="salad2" src="Images/salad.jpg" alt="salad"></img>' + '<p class="text">HAPPY BIRTHDAY</p>';
         setTimeout(function(){
            location.href = "https://www.youtube.com/watch?v=qhA7r4FJx1w";
-        }, 5000);
+        }, 2000);
         return;
   }
 
